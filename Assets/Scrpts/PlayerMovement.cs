@@ -3,7 +3,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
 
-    [SerializeField] float Sensitivity, minX, maxX , minY, maxY;
+    [SerializeField] float Sensitivity;
     
     public float forwardSpeed;
 
@@ -26,10 +26,10 @@ public class PlayerMovement : MonoBehaviour
         {
             touch = Input.GetTouch(0);
 
-            float xWays = Mathf.Clamp((transform.position.x + touch.deltaPosition.x) * Sensitivity, minX, maxX);
-            float yWays = Mathf.Clamp((transform.position.y + touch.deltaPosition.y) * Sensitivity, minY, maxY);
-        
-            if(touch.phase == TouchPhase.Moved)
+            float xWays = Mathf.Clamp(transform.position.x + touch.deltaPosition.x * Sensitivity, -1.5f, 1.5f);
+            float yWays = Mathf.Clamp(transform.position.y + touch.deltaPosition.y * Sensitivity, -3f, 3f);
+
+            if (touch.phase == TouchPhase.Moved)
             {
                 transform.position = new Vector3(xWays, yWays, transform.position.z);
             }
