@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3036225153017423364}
   - component: {fileID: 992518122515026638}
   - component: {fileID: 1875666064140970562}
-  - component: {fileID: 7399775809570712522}
+  - component: {fileID: -593011289454770056}
   m_Layer: 0
   m_Name: Platonic
   m_TagString: Shapes
@@ -100,7 +100,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &7399775809570712522
+--- !u!114 &-593011289454770056
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 1875666062058296735}
   m_Layer: 0
   m_Name: Coll (2)
-  m_TagString: Untagged
+  m_TagString: Shapes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -168,7 +168,7 @@ GameObject:
   - component: {fileID: 1875666062073150238}
   m_Layer: 0
   m_Name: Coll
-  m_TagString: Untagged
+  m_TagString: Shapes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -247,7 +247,7 @@ GameObject:
   - component: {fileID: 1875666062210404615}
   m_Layer: 0
   m_Name: Coll (4)
-  m_TagString: Untagged
+  m_TagString: Shapes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -291,7 +291,7 @@ GameObject:
   - component: {fileID: 1875666062329548536}
   m_Layer: 0
   m_Name: Coll (3)
-  m_TagString: Untagged
+  m_TagString: Shapes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -335,7 +335,7 @@ GameObject:
   - component: {fileID: 1875666062572186189}
   m_Layer: 0
   m_Name: Coll (1)
-  m_TagString: Untagged
+  m_TagString: Shapes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

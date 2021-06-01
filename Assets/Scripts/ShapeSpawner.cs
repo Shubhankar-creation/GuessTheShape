@@ -8,7 +8,7 @@ public class ShapeSpawner : MonoBehaviour
     [SerializeField] GameObject[] shapePrefab;
     [SerializeField] GameObject shapeParent;
     [SerializeField] Material[] shapeMaterial;
-    GameObject wallPos;
+    GameObject shapePos;
 
     MeshRenderer meshRenderShape;
 
@@ -21,10 +21,9 @@ public class ShapeSpawner : MonoBehaviour
     void Start()
     {
         randInd = GenerateRand(currInd);
-        shapeMove = shapePrefab[randInd].AddComponent<PlayerMovement>();
+        shapeMove = gameObject.AddComponent<PlayerMovement>();
 
         instantiateShape();
-        collDetect = shapePrefab[randInd].AddComponent<CollisionDetection>();
 
         currInd = randInd;
 
@@ -56,10 +55,9 @@ public class ShapeSpawner : MonoBehaviour
                         Debug.Log("Shape touched");
 
                         randInd = GenerateRand(currInd);
-                        shapeMove = shapePrefab[randInd].AddComponent<PlayerMovement>();
 
+                        Destroy(shapePos);
                         instantiateShape();
-                        collDetect = shapePrefab[randInd].AddComponent<CollisionDetection>();
 
                         currInd = randInd;
 
@@ -91,11 +89,16 @@ public class ShapeSpawner : MonoBehaviour
 
     void instantiateShape()
     {
+
         meshRenderShape = shapePrefab[randInd].GetComponent<MeshRenderer>();
         meshRenderShape.material = shapeMaterial[matInd];
 
-        wallPos = Instantiate(shapePrefab[randInd], transform.position, Quaternion.identity) as GameObject;
-        wallPos.transform.parent = shapeParent.transform;
+        shapePos = Instantiate(shapePrefab[randInd], transform.position, Quaternion.identity) as GameObject;
+
+        collDetect = shapePos.AddComponent<CollisionDetection>();
+
+
+        shapePos.transform.parent = shapeParent.transform;
     }
 
 }

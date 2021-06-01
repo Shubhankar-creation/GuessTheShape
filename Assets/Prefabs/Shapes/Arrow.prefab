@@ -50,7 +50,7 @@ GameObject:
   - component: {fileID: 7476477995890418136}
   m_Layer: 0
   m_Name: Coll (2)
-  m_TagString: Untagged
+  m_TagString: Shapes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 7476477996062954312}
   m_Layer: 0
   m_Name: Coll (3)
-  m_TagString: Untagged
+  m_TagString: Shapes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -138,7 +138,7 @@ GameObject:
   - component: {fileID: 7476477996131465607}
   m_Layer: 0
   m_Name: Coll (5)
-  m_TagString: Untagged
+  m_TagString: Shapes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -182,7 +182,7 @@ GameObject:
   - component: {fileID: 7476477996478416956}
   m_Layer: 0
   m_Name: Coll (6)
-  m_TagString: Untagged
+  m_TagString: Shapes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -209,7 +209,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7476477996478416954}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.08758125
   m_Height: 0.2538978
@@ -227,7 +227,7 @@ GameObject:
   - component: {fileID: 7476477996831990559}
   m_Layer: 0
   m_Name: Coll (4)
-  m_TagString: Untagged
+  m_TagString: Shapes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -271,7 +271,7 @@ GameObject:
   - component: {fileID: 7476477997033802193}
   m_Layer: 0
   m_Name: Coll
-  m_TagString: Untagged
+  m_TagString: Shapes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -315,7 +315,7 @@ GameObject:
   - component: {fileID: 7476477997765537319}
   m_Layer: 0
   m_Name: Coll (1)
-  m_TagString: Untagged
+  m_TagString: Shapes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -359,7 +359,7 @@ GameObject:
   - component: {fileID: 7476477997808531972}
   m_Layer: 0
   m_Name: Coll (7)
-  m_TagString: Untagged
+  m_TagString: Shapes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -386,7 +386,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7476477997808531970}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.08758125
   m_Height: 0.2538978
@@ -418,7 +418,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7710339521727412303}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -453,7 +453,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 8fa17db501d3e204da9adb195ea9ae73, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

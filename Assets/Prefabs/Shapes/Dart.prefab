@@ -12,10 +12,7 @@ GameObject:
   - component: {fileID: 8022403152637176841}
   - component: {fileID: 5238172764295747779}
   - component: {fileID: 6877049140398829408}
-  - component: {fileID: -2111627276327300450}
-  - component: {fileID: -3101667125172910093}
-  - component: {fileID: 2696942458853437996}
-  - component: {fileID: -7398680491972549163}
+  - component: {fileID: 1762399479387323027}
   m_Layer: 0
   m_Name: Dart
   m_TagString: Shapes
@@ -30,7 +27,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6030678412460751126}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: 3.23, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -103,47 +100,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &-2111627276327300450
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6030678412460751126}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ad84cc30dac7d649a0e9d93debe599f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &-3101667125172910093
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6030678412460751126}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ed7eb58fcc3d914f82705fb89785796, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Sensitivity: 0.0036
-  forwardSpeed: 8
---- !u!114 &2696942458853437996
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6030678412460751126}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ed7eb58fcc3d914f82705fb89785796, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Sensitivity: 0.0036
-  forwardSpeed: 8
---- !u!114 &-7398680491972549163
+--- !u!114 &1762399479387323027
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -167,7 +124,7 @@ GameObject:
   - component: {fileID: 6877049139404318127}
   m_Layer: 0
   m_Name: Coll (3)
-  m_TagString: Untagged
+  m_TagString: Shapes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -211,7 +168,7 @@ GameObject:
   - component: {fileID: 6877049139479729204}
   m_Layer: 0
   m_Name: Coll
-  m_TagString: Untagged
+  m_TagString: Shapes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -255,7 +212,7 @@ GameObject:
   - component: {fileID: 6877049139631109973}
   m_Layer: 0
   m_Name: Coll (1)
-  m_TagString: Untagged
+  m_TagString: Shapes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -299,7 +256,7 @@ GameObject:
   - component: {fileID: 6877049139780314284}
   m_Layer: 0
   m_Name: Coll (6)
-  m_TagString: Untagged
+  m_TagString: Shapes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -381,7 +338,7 @@ GameObject:
   - component: {fileID: 6877049140101438106}
   m_Layer: 0
   m_Name: Coll (2)
-  m_TagString: Untagged
+  m_TagString: Shapes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -425,7 +382,7 @@ GameObject:
   - component: {fileID: 6877049140962216791}
   m_Layer: 0
   m_Name: Coll (5)
-  m_TagString: Untagged
+  m_TagString: Shapes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -470,7 +427,7 @@ GameObject:
   - component: {fileID: 6877049140978890613}
   m_Layer: 0
   m_Name: Coll (4)
-  m_TagString: Untagged
+  m_TagString: Shapes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

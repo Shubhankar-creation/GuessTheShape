@@ -3,7 +3,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
 
-    [SerializeField] float Sensitivity = 0.0036f;
+    [SerializeField] float Sensitivity = 0.005f;
     
     public float forwardSpeed = 8f;
 
