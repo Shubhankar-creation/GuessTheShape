@@ -1209,8 +1209,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ed7eb58fcc3d914f82705fb89785796, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Sensitivity: 0.005
-  forwardSpeed: 8
+  Sensitivity: 0
+  forwardSpeed: 15
 --- !u!1001 &1832743039
 PrefabInstance:
   m_ObjectHideFlags: 0

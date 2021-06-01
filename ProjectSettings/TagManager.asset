@@ -9,6 +9,7 @@ TagManager:
   - FreeSpace
   - NO Collision
   - Shapes
+  - UI
   layers:
   - Default
   - TransparentFX

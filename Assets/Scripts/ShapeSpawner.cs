@@ -91,10 +91,9 @@ public class ShapeSpawner : MonoBehaviour
         meshRenderShape = shapePrefab[randInd].GetComponent<MeshRenderer>();
         meshRenderShape.material = shapeMaterial[matInd];
 
-        shapePos = Instantiate(shapePrefab[randInd], transform.position, Quaternion.identity) as GameObject;
+        shapePos = Instantiate(shapePrefab[randInd], gameObject.transform.position, Quaternion.identity) as GameObject;
 
         collDetect = shapePos.AddComponent<CollisionDetection>();
-
 
         shapePos.transform.parent = shapeParent.transform;
     }
