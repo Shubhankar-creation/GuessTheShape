@@ -3,9 +3,9 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
 
-    [SerializeField] float Sensitivity;
+    [SerializeField] float Sensitivity = 0.0036f;
     
-    public float forwardSpeed;
+    public float forwardSpeed = 8f;
 
     private Touch touch;
 

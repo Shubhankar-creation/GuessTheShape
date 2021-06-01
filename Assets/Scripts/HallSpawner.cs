@@ -6,7 +6,7 @@ public class HallSpawner : MonoBehaviour
     [SerializeField] GameObject hallPrefab;
     [SerializeField] GameObject hallSpawnLoc;
 
-    private float hallPosition = 100f;
+    private float hallPosition = 110f;
     private void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.CompareTag("Hall"))

@@ -20,14 +20,14 @@ public class WallSpawner : MonoBehaviour
 
     void Start()
     {
-        for(int i = 0; i < 2; i++)
+        for(int i = 0; i < 3; i++)
         {
             meshRenderWall = wallPrefab[i].GetComponent<MeshRenderer>();
             meshRenderWall.material = wallMaterial;
 
             wallPos = Instantiate(wallPrefab[i], new Vector3(0f, wallPrefab[i].transform.position.y, zPosWall), Quaternion.identity) as GameObject;
             wallPos.transform.parent = wallParent.transform;
-            zPosWall += 40;
+            zPosWall += 60;
         }
     }
         
@@ -35,6 +35,8 @@ public class WallSpawner : MonoBehaviour
     {
         if(other.gameObject.CompareTag("Wall"))
         {
+
+            Destroy(other.gameObject);
             rand = GetRandomNumber(Currrand);
             instantiateWall();
         }

@@ -8,6 +8,7 @@ TagManager:
   - Wall
   - FreeSpace
   - NO Collision
+  - Shapes
   layers:
   - Default
   - TransparentFX
