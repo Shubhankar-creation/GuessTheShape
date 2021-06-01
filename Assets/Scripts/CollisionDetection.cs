@@ -5,13 +5,17 @@ using UnityEngine;
 public class CollisionDetection : MonoBehaviour
 {
 
-    private int currID = 0;
-    private int initalID = 0;
+    private int currShapeID = 0;
+    private int initalShapeID = 0;
+
+    private int currWallID = 0;
+    private int initialWallID = 0;
     private void OnTriggerEnter(Collider other)
     {
-        currID = other.gameObject.GetInstanceID();
+        currWallID = gameObject.GetInstanceID();
+        currShapeID = other.gameObject.GetInstanceID();
 
-        if(currID != initalID)
+        if(currShapeID != initalShapeID && currWallID != initialWallID)
         {
             if (other.gameObject.CompareTag("Wall"))
             {
@@ -27,7 +31,8 @@ public class CollisionDetection : MonoBehaviour
                 Debug.Log("points should be awarded");
             }
 
-            initalID = currID; ;
+            initalShapeID = currShapeID;
+            initialWallID = currWallID;
         }
 
         
